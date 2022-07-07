@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root {
+    --color-black: #1C1C1C;
+    --color-green: #0b581f;
+    --color-prata: #8c8c8c ; 
+    --color-white: #C1CDCD;
+
+}
+body {
+    font-family: 'Nunito', sans-serif ;
+}
+
+header {
+    background-color: var(--color-black);
+    height: 180px;
+    text-align: center;
+}
+
+header img {
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: var(--color-black);
+    width: 15%;
+    height: 650px;
+}
+
+main {
+    background-color: var(--color-black);
+    width: 100%;
+    height: 650px;
+    display: block;
+}
+.saudacao h3{
+    text-align: center;
+    margin-top: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: var(--color-green);
+}
+.saudacao h5{
+    text-align: center;
+    font-size: 15px;
+    color: var(--color-white);
+}
+.caixaVideo {
+    margin-top: 90px;
+    text-align: center;
+}
+.caixaVideo img{
+    height: 150px;
+}
+
+.caixaTexto {
+    color: var(--color-white);
+    margin: 300px;
+    margin-top: 80px;
+    text-align: center;
+}
